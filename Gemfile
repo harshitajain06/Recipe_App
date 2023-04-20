@@ -7,6 +7,8 @@ gem 'cancancan'
 
 gem 'devise'
 
+gem 'pg', '~> 1.4', '>= 1.4.6'
+
 gem 'bootstrap', '~> 5.1'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
