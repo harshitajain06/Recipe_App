@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class CreateRecipes < ActiveRecord::Migration[7.0]
   def change
     create_table :recipes do |t|
@@ -9,7 +7,6 @@ class CreateRecipes < ActiveRecord::Migration[7.0]
       t.text :description
       t.string :public
       t.references :user, index: true, foreign_key: true
-
       t.timestamps
     end
   end
