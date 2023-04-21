@@ -140,7 +140,7 @@ To run tests, run the following command:
 
 
 ```sh
-  bin/ rails rsepc sepc/
+  bin/ bundle exec rspec
 ```
 ### Deployment
 
