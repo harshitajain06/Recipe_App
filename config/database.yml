@@ -77,8 +77,8 @@ test:
 # the values provided in this file. Alternatively, you can specify a connection
 # URL environment variable explicitly:
 #
-   production:
-    url: <%= ENV["postgres://my_database:rYZ9XlhQFZu8mlkf4GXtEpFP2c3M5eIf@dpg-ch1bvl4eoogo6ohmnaf0-a/recipe_app_production_cnpi"] %>
+   #production:
+    #url: <%= ENV["postgres://my_database:rYZ9XlhQFZu8mlkf4GXtEpFP2c3M5eIf@dpg-ch1bvl4eoogo6ohmnaf0-a/recipe_app_production_cnpi"] %>
 #
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
@@ -88,3 +88,4 @@ production:
   database: recipe_app_production_cnpi
   username: my_database
   password: <%= ENV["rYZ9XlhQFZu8mlkf4GXtEpFP2c3M5eIf"] %>
+  url: <%= ENV["postgres://my_database:rYZ9XlhQFZu8mlkf4GXtEpFP2c3M5eIf@dpg-ch1bvl4eoogo6ohmnaf0-a/recipe_app_production_cnpi"] %>
